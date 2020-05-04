@@ -13,5 +13,6 @@ func helloer() string {
 func main() {
 	fmt.Printf(helloer())
 	var i int
-	i = 424
-	fmt.P
+	i = 4243432
+	fmt.Print(i)
+}
