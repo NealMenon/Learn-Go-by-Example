@@ -5,12 +5,13 @@ import (
 )
 
 func helloer() string {
-	return "Hello you\n"
+
+	return "Hello you sly dog\n"
+
 }
 
 func main() {
 	fmt.Printf(helloer())
 	var i int
 	i = 424
-	fmt.Println(i)
-}
+	fmt.P
