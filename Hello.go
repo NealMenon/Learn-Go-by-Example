@@ -14,5 +14,5 @@ func main() {
 	fmt.Printf(helloer())
 	var i int
 	i = 4243432
-	fmt.Print(i)
+	fmt.Println(i)
 }
