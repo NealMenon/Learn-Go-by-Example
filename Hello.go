@@ -4,7 +4,7 @@ import "fmt"
 
 // Hello function
 func Hello() string {
-	return "Hello, world"
+go	return "Hello, world"
 }
 
 func main() {
