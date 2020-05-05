@@ -1,16 +1,12 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func helloer() string {
-	return "Hello you sly dog\n"
+// Hello function
+func Hello() string {
+	return "Hello, world"
 }
 
 func main() {
-	fmt.Printf(helloer())
-	var i int
-	i = 4243432
-	fmt.Println(i)
+	fmt.Println(Hello())
 }
