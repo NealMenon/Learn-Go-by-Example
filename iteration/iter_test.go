@@ -25,6 +25,14 @@ func TestHello(t *testing.T) {
 
 }
 
+// benckarking for both together
+func BenchmarkRepeat(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Repeat5("x")
+		RepeatN("x", 10)
+	}
+}
+
 func BenchmarkRepeat5(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		Repeat5("a")
