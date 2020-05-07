@@ -7,7 +7,7 @@ Seconds | 301 | 283
 Hello | 4 May | 4 May
 
 
- | Section | Planned | Completed
+ \# | Section | Planned | Completed
 --- | --- | ---
 1 | Hello | 4 May | 4 May
 2 | Integers | 5 May | 5 May
