@@ -1,23 +1,9 @@
 # Learn-Go-by-Example
 Go Sandbox
 
-1. Hello
-2. Integers
-3. Iterations
-4. Arrays and slices
-5. Structs, methods & interfaces
-6. Pointers & errors
-7. Maps
-8. Dependency Injection
-9. Mocking
-10. Concurrency
-11. Select
-12. Reflection
-13. Sync
-14. Context
-15. Intro to Property based tests
-16. Maths
-
+Section | Planned | Completed | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 
 Section | Planned | Completed
