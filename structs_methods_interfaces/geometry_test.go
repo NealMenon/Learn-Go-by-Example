@@ -14,4 +14,9 @@ func TestGeometry(t *testing.T) {
 		want := 48.0
 		checker(t, got, want)
 	})
+	t.Run("test_Area()", func(t *testing.T) {
+		got := Area(11.5, 12.5)
+		want := 143.75
+		checker(t, got, want)
+	})
 }
