@@ -4,7 +4,7 @@ Go Sandbox
 Section | Planned | Completed 
 --- | --- | --- 
 Seconds | 301 | 283 
-1. Hello | 4 May | 4 May
+Hello | 4 May | 4 May
 
 
 Section | Planned | Completed
