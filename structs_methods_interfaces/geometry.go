@@ -21,6 +21,7 @@ type Triangle struct {
 // Shape interface
 type Shape interface {
 	Area() float64
+	// Perimeter() float64
 }
 
 // Perimeter returns perimeter of rectanlge in float64
