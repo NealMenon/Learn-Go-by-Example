@@ -1,14 +1,14 @@
 # Learn-Go-by-Example
 Go Sandbox
 
-Section | Planned | Completed 
---- | --- | --- 
-Seconds | 301 | 283 
-Hello | 4 May | 4 May
+No | Section | Planned | Completed 
+--- | --- | --- | --- 
+1 | Seconds | 301 | 283 
+1 | Hello | 4 May | 4 May
 
 
 No. | Section | Planned | Completed
---- | --- | ---
+--- | --- | --- | ---
 1 | Hello | 4 May | 4 May
 2 | Integers | 5 May | 5 May
 3 | Iterations | 6 May | 6 May
