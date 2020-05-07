@@ -15,7 +15,7 @@ type Circle struct {
 
 // Triangle base and height
 type Triangle struct {
-	base, height float64
+	Base, Height float64
 }
 
 // Shape interface
@@ -40,7 +40,7 @@ func (c Circle) Area() float64 {
 
 // Area of triangle
 func (t Triangle) Area() float64 {
-	return t.height * t.base / 2.0
+	return t.Height * t.Base / 2.0
 }
 
 func main() {
