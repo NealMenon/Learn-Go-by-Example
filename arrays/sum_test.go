@@ -2,6 +2,7 @@ package main
 
 import "testing"
 
+// go test -cover tells us coverage of test code
 func TestSum(t *testing.T) {
 
 	t.Run("collection of 5 numbers", func(t *testing.T) {
@@ -9,17 +10,6 @@ func TestSum(t *testing.T) {
 
 		got := Sum(numbers)
 		want := 15
-
-		if got != want {
-			t.Errorf("got %d want %d given, %v", got, want, numbers)
-		}
-	})
-
-	t.Run("collection of any size", func(t *testing.T) {
-		numbers := []int{1, 2, 3}
-
-		got := Sum(numbers)
-		want := 6
 
 		if got != want {
 			t.Errorf("got %d want %d given, %v", got, want, numbers)

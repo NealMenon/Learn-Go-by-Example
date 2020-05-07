@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // Sum returns sum of array elems
 // func Sum(numbers [5]int) int {
 // 	var sum int
@@ -27,5 +25,5 @@ func Sum(nums []int) int {
 
 func main() {
 	// fmt.Println(Sum([]int{1, 2, 3, 4, 5}))
-	fmt.Println("Hi")
+	// fmt.Println("Hi")
 }
