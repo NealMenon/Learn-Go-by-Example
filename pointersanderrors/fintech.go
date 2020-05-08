@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // Wallet struct
 type Wallet struct {
 	balance Bitcoin
@@ -7,6 +9,16 @@ type Wallet struct {
 
 // Bitcoin struct of type int
 type Bitcoin int
+
+// Stringer gives string value
+type Stringer interface {
+	String() string
+}
+
+// String toString() in go
+func (b Bitcoin) String() string {
+	return fmt.Sprintf("%d BTC", b)
+}
 
 // Balance in wallet
 func (w *Wallet) Balance() Bitcoin {
