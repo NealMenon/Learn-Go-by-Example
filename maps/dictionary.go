@@ -3,7 +3,7 @@ package main
 import "errors"
 
 // ErrNotFound if not found
-var ErrNotFound = errors.New("could not find the word you were looking for")
+var ErrNotFound = errors.New("Err: could not find the word you were looking for")
 
 // Search returns index of str in dict
 func (d Dictionary) Search(str string) (string, error) {
@@ -12,6 +12,11 @@ func (d Dictionary) Search(str string) (string, error) {
 		return "", ErrNotFound
 	}
 	return def, nil
+}
+
+// Add d[key] = val
+func (d Dictionary) Add(key, val string) {
+	d[key] = val
 }
 
 // Dictionary is map of strings giving strings
