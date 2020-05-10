@@ -11,7 +11,7 @@ Learning go from https://github.com/quii/learn-go-with-tests
 6 | Pointers & errors | 8 May | 8 May
 7 | Maps | 9 May | 9 May
 8 | Dependency Injection | 9 May | 9 May
-9 | Mocking | 10 May | - May
+9 | Mocking | 10 May | 10 May
 10 | Concurrency | 11 May | - May
 11 | Select | 12 May | - May
 12 | Reflection | 13 May | - May
