@@ -12,10 +12,12 @@ Learning go from https://github.com/quii/learn-go-with-tests
 7 | Maps | 9 May | 9 May
 8 | Dependency Injection | 9 May | 9 May
 9 | Mocking | 10 May | 10 May
-10 | Concurrency | 11 May | - May
+10 | Concurrency | 11 May | 11 May
 11 | Select | 12 May | - May
 12 | Reflection | 13 May | - May
 13 | Sync | 13 May | - May
 14 | Context | 14 May | - May
 15 | Intro to Property based tests | 15 May | - May
 16 | Maths | 16 May | - May
+
+Make it work; make it right; make it fast 
