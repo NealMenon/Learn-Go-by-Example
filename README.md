@@ -14,7 +14,7 @@ Learning go from https://github.com/quii/learn-go-with-tests
 9 | Mocking | 10 May | 10 May
 10 | Concurrency | 11 May | 11 May
 11 | Select | 12 May | 12 May
-12 | Reflection | 13 May | - May
+12 | Reflection | 13 May | 13 May
 13 | Sync | 13 May | - May
 14 | Context | 14 May | - May
 15 | Intro to Property based tests | 15 May | - May
