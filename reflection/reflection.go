@@ -12,9 +12,7 @@ import (
  all strings fields found inside.
  difficulty level: recursively.
 */
-
-// Walk is the puzzle
-func Walk(x interface{}, fn func(string)) {
+func walk(x interface{}, fn func(string)) {
 	val := reflect.ValueOf(x)
 	field := val.Field(0)
 	fn(field.String())
