@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"reflect"
 )
 
@@ -46,4 +47,11 @@ func getValue(x interface{}) reflect.Value {
 	}
 
 	return val
+}
+
+func main() {
+	walk(struct{ Name string }{"Chris"}, func(input string) {
+		// got = append(got, input)
+		fmt.Println(input)
+	})
 }
