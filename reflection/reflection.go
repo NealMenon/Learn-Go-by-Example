@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 /*
  golang challenge: write a function
@@ -12,7 +15,9 @@ import "fmt"
 
 // Walk is the puzzle
 func Walk(x interface{}, fn func(string)) {
-
+	val := reflect.ValueOf(x)
+	field := val.Field(0)
+	fn(field.String())
 }
 
 func main() {
